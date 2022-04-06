@@ -1,7 +1,16 @@
 {
-  "name": "mantine-next-template",
+  "name": "findabud",
+  "description": "A web application that helps you find a buddy",
   "version": "1.0.0",
   "private": true,
+  "repository": "github:marcelherd/FindABud",
+  "author": {
+    "name": "Marcel Herd",
+    "email": "me@marcelherd.com",
+    "url": "https://marcelherd.com"
+  },
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://github.com/marcelherd/FindABud#readme",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
