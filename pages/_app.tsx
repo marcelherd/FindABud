@@ -1,8 +1,8 @@
-import { GetServerSidePropsContext } from 'next';
 import { useState } from 'react';
+import { GetServerSidePropsContext } from 'next';
 import { AppProps } from 'next/app';
-import { getCookie, setCookies } from 'cookies-next';
 import Head from 'next/head';
+import { getCookie, setCookies } from 'cookies-next';
 import { MantineProvider, ColorScheme, ColorSchemeProvider } from '@mantine/core';
 import { NotificationsProvider } from '@mantine/notifications';
 
@@ -19,7 +19,7 @@ export default function App(props: AppProps & { colorScheme: ColorScheme }) {
   return (
     <>
       <Head>
-        <title>Mantine next example</title>
+        <title>FindABuddy</title>
         <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
         <link rel="shortcut icon" href="/favicon.svg" />
       </Head>
