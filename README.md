@@ -1,39 +1,77 @@
-# Mantine Next Template
+<div align="center">
+  <h1>FindABud</h1>
+  <p>A web application that helps you find a buddy</p>
+  
+  <a>
+    <img src="https://img.shields.io/github/last-commit/marcelherd/FindABud" alt="Last commit" />
+  </a>
+  <a href="https://github.com/marcelherd/FindABud/issues/">
+    <img src="https://img.shields.io/github/issues/marcelherd/FindABud" alt="Issues" />
+  </a>
+  <a>
+    <img src="https://img.shields.io/github/license/marcelherd/FindABud" alt="License" />
+  </a>
+   
+<h4>
+    <a href="#">View Demo</a>
+  <span> · </span>
+    <a href="https://github.com/marcelherd/FindABud/issues/">Report Bug</a>
+  </h4>
+</div>
 
-Get started with Mantine + Next with just a few button clicks.
-Click `Use this template` button at the header of repository or [follow this link](https://github.com/mantinedev/mantine-next-template/generate) and
-create new repository with `@mantine` packages. Note that you have to be logged in to GitHub to generate template.
+<br />
 
-## Features
+# Table of Contents
 
-This template comes with several essential features:
+- [About the Project](#about-the-project)
+- [Development](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Running Tests](#running-tests)
+  - [Run Locally](#run-locally)
+  - [Deployment](#deployment)
+- [License](#license)
+- [Contact](#contact)
+- [Acknowledgements](#acknowledgements)
 
-- Server side rendering setup for Mantine
-- Color scheme is stored in cookie to avoid color scheme mismatch after hydration
-- Storybook with color scheme toggle
-- Jest with react testing library
-- ESLint setup with [eslint-config-mantine](https://github.com/mantinedev/eslint-config-mantine)
+## About the Project
 
-## npm scripts
+TODO
 
-### Build and dev scripts
+### Screenshots
 
-- `dev` – start dev server
-- `build` – bundle application for production
-- `export` – exports static website to `out` folder
-- `analyze` – analyzes application bundle with [@next/bundle-analyzer](https://www.npmjs.com/package/@next/bundle-analyzer)
+<img src="https://placehold.co/600x400?text=Working+on+it" alt="screenshot" />
 
-### Testing scripts
+## Development
 
-- `typecheck` – checks TypeScript types
-- `lint` – runs ESLint
-- `prettier:check` – checks files with Prettier
-- `jest` – runs jest tests
-- `jest:watch` – starts jest watch
-- `test` – runs `jest`, `prettier:check`, `lint` and `typecheck` scripts
+### Prerequisites
 
-### Other scripts
+TODO
 
-- `storybook` – starts storybook dev server
-- `storybook:build` – build production storybook bundle to `storybook-static`
-- `prettier:write` – formats all files with Prettier
+### Installation
+
+TODO
+
+### Running Tests
+
+TODO
+
+### Run Locally
+
+TODO
+
+### Deployment
+
+TODO
+
+## License
+
+Distributed under the [GNU GPLv3](https://choosealicense.com/licenses/mit/) License. See LICENSE.txt for more information.
+
+## Contact
+
+Marcel Herd - me@marcelherd.com
+
+## Acknowledgements
+
+- [Awesome Readme Template](https://github.com/Louis3797/awesome-readme-template)
