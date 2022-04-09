@@ -46,19 +46,35 @@ TODO
 
 ### Prerequisites
 
-TODO
+A PostgreSQL database is required to run the application. You can start it up using Docker with minimal effort:
+
+```sh
+docker volume create postgres
+docker run --name postgres -p 5432:5432 -e POSTGRES_PASSWORD=secret -v postgres:/var/lib/postgresql/data -d postgres
+```
+
+Make sure to copy the file `.env.example` in the root folder and rename it to `.env` and fill it in. When using Docker as mentioned above, the variable `DATABASE_URL` can be set like so:
+
+`DATABASE_URL="postgresql://postgres:secret@localhost:5432/postgres?schema=public"`
 
 ### Installation
 
-TODO
+```sh
+yarn install
+npx prisma migrate dev
+```
 
 ### Running Tests
 
-TODO
+```sh
+yarn test
+```
 
 ### Run Locally
 
-TODO
+```sh
+yarn dev
+```
 
 ### Deployment
 
