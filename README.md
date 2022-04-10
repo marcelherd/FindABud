@@ -59,9 +59,15 @@ Make sure to copy the file `.env.example` in the root folder and rename it to `.
 DATABASE_URL="postgresql://postgres:secret@localhost:5432/postgres?schema=public"
 ```
 
+A suitable `NEXTAUTH_SECRET` can be generated like so:
+
+```sh
+openssl rand -base64 32
+```
+
 If you are developing on Windows, ensure that you're not accidentally converting the file's line endings to CRLF as it will show up as error in ESLint:
 
-```
+```sh
 git config core.autocrlf false
 ```
 
