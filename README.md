@@ -2,13 +2,16 @@
   <h1>FindABud</h1>
   <p>A web application that helps you find a buddy</p>
   
-  <a>
+  <a href="https://github.com/marcelherd/FindABud/commits/master">
     <img src="https://img.shields.io/github/last-commit/marcelherd/FindABud" alt="Last commit" />
+  </a>
+  <a href="https://github.com/marcelherd/FindABud/actions/workflows/main.yml">
+    <img src="https://img.shields.io/github/workflow/status/marcelherd/FindABud/CI" alt="Build status" />
   </a>
   <a href="https://github.com/marcelherd/FindABud/issues/">
     <img src="https://img.shields.io/github/issues/marcelherd/FindABud" alt="Issues" />
   </a>
-  <a>
+  <a href="https://github.com/marcelherd/FindABud/blob/master/LICENSE.txt">
     <img src="https://img.shields.io/github/license/marcelherd/FindABud" alt="License" />
   </a>
    
