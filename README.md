@@ -55,7 +55,24 @@ docker run --name postgres -p 5432:5432 -e POSTGRES_PASSWORD=secret -v postgres:
 
 Make sure to copy the file `.env.example` in the root folder and rename it to `.env` and fill it in. When using Docker as mentioned above, the variable `DATABASE_URL` can be set like so:
 
-`DATABASE_URL="postgresql://postgres:secret@localhost:5432/postgres?schema=public"`
+```
+DATABASE_URL="postgresql://postgres:secret@localhost:5432/postgres?schema=public"
+```
+
+If you are developing on Windows, ensure that you're not accidentally converting the file's line endings to CRLF as it will show up as error in ESLint:
+
+```
+git config core.autocrlf false
+```
+
+If Visual Studio Code is saving your files with the wrong line endings, consider using the following settings:
+
+```json
+{
+  "files.eol": "\n",
+  "prettier.endOfLine": "auto"
+}
+```
 
 ### Installation
 
