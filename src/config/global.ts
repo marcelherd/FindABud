@@ -5,7 +5,7 @@
  * @author Marcel Herd
  */
 
-import { getEnvironmentVariable } from '@helpers/environment';
+import { getEnvironmentVariable } from '@/helpers/environment';
 
 const config = {
   auth0: {

@@ -7,13 +7,8 @@ const createJestConfig = nextJest({
 const customJestConfig = {
   setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
   moduleNameMapper: {
-    '^@config/(.*)$': '<rootDir>/src/config/$1',
-    '^@components/(.*)$': '<rootDir>/src/components/$1',
-    '^@hooks/(.*)$': '<rootDir>/src/hooks/$1',
-    '^@helpers/(.*)$': '<rootDir>/src/helpers/$1',
-    '^@lib/(.*)$': '<rootDir>/src/lib/$1',
-    '^@pages/(.*)$': '<rootDir>/src/pages/$1',
-    '^@public/(.*)$': '<rootDir>/src/public/$1',
+    '^@/(.*)$': '<rootDir>/src/$1',
+    '^@/public/(.*)$': '<rootDir>/public/$1',
   },
   testEnvironment: 'jest-environment-jsdom',
 };

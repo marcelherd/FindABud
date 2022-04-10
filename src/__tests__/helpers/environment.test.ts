@@ -1,4 +1,4 @@
-import { getEnvironmentVariable } from '@helpers/environment';
+import { getEnvironmentVariable } from '@/helpers/environment';
 
 describe('getEnvironmentVariable', () => {
   it('should return the value of the environment variable if it exists', () => {
