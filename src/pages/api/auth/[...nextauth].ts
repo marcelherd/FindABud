@@ -1,11 +1,9 @@
 import NextAuth from 'next-auth/next';
 import Auth0Provider from 'next-auth/providers/auth0';
 import { PrismaAdapter } from '@next-auth/prisma-adapter';
-import { PrismaClient } from '@prisma/client';
 
 import config from '@/config/global';
-
-const prisma = new PrismaClient();
+import { prisma } from '@/lib/database';
 
 export default NextAuth({
   adapter: PrismaAdapter(prisma),
